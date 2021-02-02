@@ -3,7 +3,6 @@ package com.coolweather.android;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.graphics.ColorUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +20,6 @@ import com.coolweather.android.util.HttpUtil;
 import com.coolweather.android.util.Utility;
 
 import org.litepal.crud.DataSupport;
-import org.litepal.util.BaseUtility;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -144,7 +142,7 @@ public class ChooseAreaFragment extends Fragment {
         }else{
             int provinceCode = selectedProvince.getProvinceCode();
             int cityCode = selectedCity.getCityCode();
-            String address = "http://guolin.tech/api/china/" + provinceCode + cityCode;
+            String address = "http://guolin.tech/api/china/" + provinceCode + "/" +cityCode;
             queryFromServer(address, "county");
         }
     }
@@ -152,17 +150,6 @@ public class ChooseAreaFragment extends Fragment {
     private void queryFromServer(String address, final String type) {
            showProgressDialog();
         HttpUtil.sendOkHttpRequest(address, new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        closeProgressDialog();
-                        Toast.makeText(getContext(), "加载失败！", Toast.LENGTH_SHORT).show();
-                    }
-                });
-            }
-
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 String responseText = response.body().string();
@@ -189,6 +176,16 @@ public class ChooseAreaFragment extends Fragment {
                         }
                     });
                 }
+            }
+            @Override
+            public void onFailure(Call call, IOException e) {
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        closeProgressDialog();
+                        Toast.makeText(getContext(), "加载失败！", Toast.LENGTH_SHORT).show();
+                    }
+                });
             }
         });
     }
