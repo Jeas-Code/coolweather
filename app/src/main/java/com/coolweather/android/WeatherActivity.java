@@ -76,7 +76,8 @@ public class WeatherActivity extends AppCompatActivity {
 
         String bingPic = prefs.getString("bing_pic", null);
         if(bingPic != null){
-            Glide.with(this).load(bingPic).into(bingPicImg);
+            //Glide.with(this).load(bingPic).into(bingPicImg);
+            loadBingPic();
         }else{
             loadBingPic();
         }
@@ -119,15 +120,18 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void requestWeather(final String weatherId) {
-        String weatherUrl = "http://guolin.tech/api/weather?cityid="+weatherId+
-                "&key=bc0418b57b2d4918819d3974ac1285d9";
+        String weatherUrl = "http://guolin.tech/api/weather?city="
+            + weatherId + "&key=" +
+                "bc0418b57b2d4918819d3974ac1285d9";
+//        String weatherUrl="https://free-api.heweather.com/s6/location="+weatherId+"&key=" +
+//                "66cd8d3c278d4b35a6a3aa43a7467da2";
         HttpUtil.sendOkHttpRequest(weatherUrl, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(WeatherActivity.this, "获取天气信息失败！", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(WeatherActivity.this, "获取天气信息失败2！", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -139,14 +143,14 @@ public class WeatherActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        if(weather != null && "ok".equalsIgnoreCase(weather.status)){
+                        if(weather != null && ("ok".equals(weather.status))){
                             SharedPreferences.Editor editor = PreferenceManager
                                     .getDefaultSharedPreferences(WeatherActivity.this).edit();
                             editor.putString("weather", responseText);
                             editor.apply();
                             showWeatherInfo(weather);
                         }else{
-                            Toast.makeText(WeatherActivity.this, "获取天气信息失败！", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(WeatherActivity.this, "获取天气信息失败1！", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
