@@ -11,6 +11,33 @@
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-26.0.0-alpha1_8fd4f64989451d065e5aaef1da8e3935f33af104\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-26.0.0-alpha1_8fd4f64989451d065e5aaef1da8e3935f33af104.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\libs\QWeather_Plugin_SDK_Android_V1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="13ba87461c0264a1627b4d375190eed68ce02737">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\QWeather_Plugin_SDK_Android_V1.5_6383646230809747bc9f7908a0eab42aca1d62be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeas\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\glide-3.7.0_9c45ff04f04f6cae5b0c200f4086e560862a6c3f.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="D:\AndroidPrograms\Learn\CoolWeather\app\libs\QWeather_Plugin_SDK_Android_V1.5.jar"
         jumboMode="true"
@@ -18,6 +45,15 @@
         revision="30.0.3"
         sha1="13ba87461c0264a1627b4d375190eed68ce02737">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\2\QWeather_Plugin_SDK_Android_V1.5_6383646230809747bc9f7908a0eab42aca1d62be\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeas\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.9.0\1b6c10b5120995a7542c1a31b7828fb8593c8ba\okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\okhttp-3.9.0_3358310c76a5efb8840cb642adeed9ce681f1084.jar" />
     </item>
     <item
         is-multidex="true"
@@ -36,6 +72,15 @@
         revision="30.0.3"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_9c45ff04f04f6cae5b0c200f4086e560862a6c3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-26.0.0-alpha1_6f6cd09deaebac4a19b2f09b76afa04d39794a2d.jar" />
     </item>
     <item
         is-multidex="true"
@@ -65,6 +110,15 @@
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_6f6cd09deaebac4a19b2f09b76afa04d39794a2d\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-26.0.0-alpha1_6e083372c0802ea9ff425f497cb8f3b011f60a37.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
         jumboMode="true"
@@ -72,6 +126,42 @@
         revision="30.0.3"
         sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_4269d12b536516839a7ea507132afed080905483\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-26.0.0-alpha1_e34a5a8774cd39b09a8e6145ef4206a641d9eb63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-26.0.0-alpha1_4269d12b536516839a7ea507132afed080905483.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-26.0.0-alpha1_c0270f0280f106b3cf830bf29b6553b55a9f34a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeas\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\gson-2.7_ac67a1717e117c4174901abbd9061b1b27ed7d61.jar" />
     </item>
     <item
         is-multidex="true"
@@ -92,6 +182,15 @@
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.litepal.android-core-1.4.1_86b9dcd234e1c07bd104b6de5891ec4608562648\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-26.0.0-alpha1_bf94f232a820197f46d1f41f96f6bba62a2b86f7.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\Jeas\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
         jumboMode="true"
@@ -101,6 +200,24 @@
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_d1baa3f0a427493651531f13949173e8a10e07a6\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\Jeas\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\okio-1.13.0_d1baa3f0a427493651531f13949173e8a10e07a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\org.litepal.android\core\1.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="2ed5d8f90fadbfa1098d859cda836de0dc31d265">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\org.litepal.android-core-1.4.1_86b9dcd234e1c07bd104b6de5891ec4608562648.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
         jumboMode="true"
@@ -108,6 +225,15 @@
         revision="30.0.3"
         sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-26.0.0-alpha1_e34a5a8774cd39b09a8e6145ef4206a641d9eb63\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-26.0.0-alpha1_95761be9fc033c2d50130b008619a41352d6ac28.jar" />
     </item>
     <item
         is-multidex="true"
@@ -126,6 +252,15 @@
         revision="30.0.3"
         sha1="952944218ecedea1554a513dec0c14d570642843">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-26.0.0-alpha1_95761be9fc033c2d50130b008619a41352d6ac28\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\amt\SDK\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\support-annotations-26.0.0-alpha1_170f335de062442aae93f32c5a62823b651c2761.jar" />
     </item>
     <item
         is-multidex="true"
@@ -162,6 +297,15 @@
         revision="30.0.3"
         sha1="cf76c4484e7ac5c50c4cb8cebd1400c0038fa33c">
         <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_82e8e40c88b333747edf47397833e30b8e3c4558\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="30.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\AndroidPrograms\Learn\CoolWeather\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-26.0.0-alpha1_097ff2e61a6882f6d0becae8f94b585ba08bb2ac.jar" />
     </item>
 
 </items>
